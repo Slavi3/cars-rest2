@@ -6,7 +6,7 @@ public class Car {
 
     private String model;
     private int power;
-    private int cubicCapcity;
+    private int cubicCapacity;
     public int getId() {
         return id;
     }
@@ -40,11 +40,11 @@ public class Car {
     }
 
     public int getCubicCapcity() {
-        return cubicCapcity;
+        return cubicCapacity;
     }
 
-    public void setCubicCapcity(int cubicCapcity) {
-        this.cubicCapcity = cubicCapcity;
+    public void setCubicCapcity(int cubicCapacity) {
+        this.cubicCapacity = cubicCapacity;
     }
 
 
@@ -58,6 +58,6 @@ public class Car {
         this.make = make;
         this.model = model;
         this.power = power;
-        this.cubicCapcity = cubicCapcity;
+        this.cubicCapacity = cubicCapacity;
     }
 }
