@@ -39,11 +39,11 @@ public class Car {
         this.power = power;
     }
 
-    public int getCubicCapcity() {
+    public int getCubicCapacity() {
         return cubicCapacity;
     }
 
-    public void setCubicCapcity(int cubicCapacity) {
+    public void setCubicCapacity(int cubicCapacity) {
         this.cubicCapacity = cubicCapacity;
     }
 
