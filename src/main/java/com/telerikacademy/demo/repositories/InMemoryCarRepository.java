@@ -17,7 +17,7 @@ public class InMemoryCarRepository implements CarRepository {
     }
 
     @Override
-    public void createStudent(Car car) {
+    public void createCar(Car car) {
         cars.add(car);
     }
 
