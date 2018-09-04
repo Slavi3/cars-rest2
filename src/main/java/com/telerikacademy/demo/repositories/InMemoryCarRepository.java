@@ -13,7 +13,7 @@ public class InMemoryCarRepository implements CarRepository {
     public InMemoryCarRepository() {
         cars.add(new Car(1,"BMV", "640",313,4000));
         cars.add(new Car(2, "Audi", "S5",354,4200));
-        cars.add(new Car(3, "mercedes-Benz", "S600",525,5513));
+        cars.add(new Car(3, "Mercedes-Benz", "S600",525,5513));
     }
 
     @Override
