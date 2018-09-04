@@ -53,7 +53,7 @@ public class Car {
     public Car() {
     }
 
-    public Car(int id, String make, String model, int power, int cubicCapcity) {
+    public Car(int id, String make, String model, int power, int cubicCapacity) {
         this.id = id;
         this.make = make;
         this.model = model;
