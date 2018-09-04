@@ -32,4 +32,24 @@ public class CarsController {
     public void createCar(@RequestBody Car car) {
         service.createCar(car);
     }
+
+    @PutMapping("/{id}")
+    public void updateStudent(@PathVariable int id, @RequestBody Car car) {
+        Car c = getById(id);
+        int sIndex = service.getCars().indexOf(c);
+        service.updateCar(sIndex, car);
+    }
+
+    @DeleteMapping("/{id}")
+    public void deleteStudent(@PathVariable int id) {
+        service.deleteCar(id);
+    }
+
+    private Car getById(int id) {
+        return service.getCars().stream()
+                .filter(x -> x.getId() == id)
+                .findFirst()
+                .orElse(null);
+    }
 }
+
